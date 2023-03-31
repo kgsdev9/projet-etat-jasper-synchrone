@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.0.final using JasperReports Library version 6.19.0-646c68931cebf1a58bc65c4359d1f0ca223c5e94  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DemandeAchat" pageWidth="595" pageHeight="850" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d9f9e48e-b132-425a-91ad-4f3582b5ffb1">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="281" splitType="Stretch">
+			<staticText>
+				<reportElement x="324" y="-22" width="291" height="50" uuid="99ed5d1c-7a6a-46e5-b1a3-a8e36addd2b8">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DEMANDE D'ACHAT]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-19" y="44" width="594" height="1" uuid="ac32761e-97c9-4efc-b21d-dd81a3a517dd">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="90" y="10" width="110" height="15" backcolor="#6E201F" uuid="7aed25de-b6ee-4223-bcb3-ce04c688736e"/>
+				<box topPadding="0" bottomPadding="0" rightPadding="2">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date demande]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="207" y="9" width="110" height="15" backcolor="#6E201F" uuid="8e4f1c31-c886-48fb-9793-7e19b00cd481"/>
+				<box topPadding="0" bottomPadding="0" rightPadding="2">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[22/03/2023
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-12" y="55" width="221" height="21" uuid="559d2fcd-1145-4d30-a681-872711765ce0"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Service: Servuce Achats]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-13" y="73" width="221" height="21" uuid="cb5e49cc-6375-4a62-94b5-d6eaa18e7e5f"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Demandeur: VBROU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-13" y="94" width="221" height="21" uuid="cfc6c33b-b907-41f3-8779-7561b22d4be3"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Référence:A007460]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-14" y="114" width="379" height="21" uuid="907aed7b-855e-4720-9c93-5d7e2fe9a90b"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Désignation:MATERIEL POUR PEINTURE/PINCEAU N°40]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-15" y="160" width="315" height="21" uuid="6ce136de-903e-411d-804f-dc8396dd7194"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quantité :  2           Unite]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-16" y="176" width="315" height="21" uuid="fe04a020-42fb-4a01-bdee-47cef82e2a65"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Delai:24/03/2023
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-17" y="192" width="315" height="21" uuid="86952b98-12bf-484a-b059-0b9b199103c2"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sous section:40000 - Direction de Production]]></text>
+			</staticText>
+			<line direction="BottomUp">
+				<reportElement positionType="FixRelativeToBottom" x="574" y="43" width="1" height="170" uuid="5efb2eab-abbd-433e-929c-911811bc7d5c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="-14" y="220" width="100" height="30" uuid="c0214318-0af5-487c-8c77-9588ff19e046"/>
+				<textElement>
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Fournisseur]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-17" y="210" width="595" height="2" uuid="e0ccc1df-f420-4043-9d84-bb95693ca646">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="5.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="-18" y="45" width="1" height="79" uuid="3ea438ac-eddd-409d-a04d-b3cfc6efe1e4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="384" y="220" width="100" height="30" uuid="7627a765-54b5-4bcc-9f17-e88faf508478"/>
+				<textElement>
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Dat Liv]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="485" y="220" width="100" height="30" uuid="72f564c8-35c3-4862-9262-64b8acc8bc94"/>
+				<textElement>
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Etat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-14" y="241" width="221" height="21" uuid="6f1e7ea6-e8b7-4afc-9d1f-20922b5a8f84"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[BERNABE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="383" y="242" width="87" height="21" uuid="821465bd-7598-474f-836f-60512ae5d3b5"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[27/03/2023]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-9" y="32" width="92" height="1" uuid="cc28baee-aefa-4c51-bc41-e7b75acc5cc8"/>
+			</line>
+			<line>
+				<reportElement x="-10" y="2" width="1" height="31" uuid="46bba5f9-6da1-433a-9478-01da4c3a9c55"/>
+			</line>
+			<line>
+				<reportElement x="58" y="2" width="25" height="1" uuid="b2434bba-89ef-4a5e-801b-eeb9cf3ccfd6">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="11" y="-4" width="48" height="21" uuid="38cd9827-bcbd-4710-a758-4c3ebd9c4dc1"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Numéro]]></text>
+			</staticText>
+			<line>
+				<reportElement x="83" y="2" width="1" height="31" uuid="bd6a30d6-7073-4fbd-a835-a0296b8492a9"/>
+			</line>
+			<line>
+				<reportElement x="-10" y="2" width="15" height="1" uuid="e205686d-743f-48f3-b4ce-158cb4b63c8e">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="9" y="13" width="100" height="30" uuid="237ce223-7c16-4b9a-846a-a4f408709ff1"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DA23/00341]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="422" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<line>
+				<reportElement x="-19" y="-65" width="595" height="1" uuid="b7c0e3bb-7b44-40bd-8231-5c6ef272a1d0">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="-17" y="-45" width="595" height="1" uuid="843b8bbf-844b-40c0-8121-2b2b5acbfba6">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="184" y="-61" width="100" height="30" uuid="ce51355a-f9af-405a-869c-8ec9693ee03c"/>
+				<textElement>
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Provenance]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="287" y="-60" width="100" height="30" uuid="afc58098-4e3e-4ab0-b54f-beb37afbeba9"/>
+				<textElement>
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[PU  net]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-17" y="-65" width="1" height="205" uuid="7cc7344f-7a40-401c-9ad2-a095ba111522"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="180" y="-65" width="1" height="20" uuid="76dc0164-33f2-4dce-884c-ffb2d61467d2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="283" y="-65" width="1" height="20" uuid="4f04b5a8-992d-4970-b76d-fdf8bff0f3fd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="382" y="-65" width="1" height="20" uuid="78312ee1-1f2b-4ed7-a469-b24856604b9d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="481" y="-65" width="1" height="20" uuid="9faf298f-5a22-4e0e-8374-7f45349b6485">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="290" y="-39" width="87" height="21" uuid="f0fba22b-0cb1-4e03-8bf5-f36cbedc9c6c"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[1096]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="188" y="-42" width="87" height="21" uuid="f27ab1e7-4ddf-47a9-980a-946e62a25ef0"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Local]]></text>
+			</staticText>
+			<line>
+				<reportElement x="281" y="-50" width="1" height="191" uuid="6e977a5e-ea3d-47f9-bff3-010ee8723db1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="383" y="-45" width="1" height="186" uuid="50413b80-e4f0-41eb-a2ad-33a3f8cdd1f2">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="480" y="-45" width="1" height="185" uuid="869d9b38-18e5-4173-ba49-b0c3d5af666b">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="-18" y="140" width="593" height="1" uuid="795378df-d671-4fd5-8e66-a9ac5b9bb126">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="-17" y="145" width="221" height="21" uuid="9680c4df-6591-4dd1-b95a-6f8fbfe3be80"/>
+				<textElement>
+					<font fontName="Arial" size="16" isBold="false"/>
+				</textElement>
+				<text><![CDATA[DROCOLOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-15" y="168" width="457" height="21" uuid="aab74fad-1c94-4652-83a6-b2d74c15e825"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Prix unitaire devise: 					1566CFA														]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-15" y="186" width="457" height="21" uuid="6323b316-a0b3-4742-a0d4-bb20a29b0e6f"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remise: 						 30%													]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-16" y="206" width="457" height="21" uuid="da528b70-f586-456a-9bcc-cac86230f3ca"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Montant devis				         2192.4 CFA												]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="448" y="144" width="195" height="21" uuid="674f7963-4bd8-48bf-a363-5ebeaa129a0d"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="165" width="195" height="21" uuid="f675465b-1733-4bc8-8f8f-9152a113b5f1"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Prix unitaire CFA: 1096]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="185" width="195" height="21" uuid="7916394e-5d57-4a09-9e0e-d09c8bdc976d"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quantite:  	        2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="204" width="195" height="21" uuid="f60a3a22-b612-406e-ad01-bac6b9a0e470"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Montant CFA:  	        2192]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-20" y="230" width="594" height="1" uuid="9a64719a-c3c2-45c5-8b2a-db331f728196">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="-15" y="238" width="205" height="21" uuid="8f73f6e0-cac9-4bcf-8a5b-9312f8563771"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date de réponse:  14/03/2023												]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="198" y="264" width="205" height="21" uuid="78f536f8-f8d0-45b7-9c1a-4bdcf55ef3a6"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reference:  												]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-15" y="257" width="205" height="21" uuid="709fde1c-fcc0-4a69-a07a-fd425853b9d3"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date de livraison:  14/03/2023												]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-16" y="278" width="205" height="21" uuid="8d7becdf-89ad-42f6-a52a-f6fd034046bf"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Type de réponse:  Proforma												]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-15" y="303" width="205" height="21" uuid="3d0349b1-7481-40f6-9aa5-b615e7f1793b"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarque:  												]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="196" y="283" width="205" height="21" uuid="5abbf55f-054e-415d-8bee-18804ddace17"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ref. fournisseur:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-14" y="345" width="221" height="21" uuid="a668f0c9-42b6-4e96-b83d-0de80b8308ad"/>
+				<textElement>
+					<font fontName="Arial" size="19" isBold="false"/>
+				</textElement>
+				<text><![CDATA[SIPPEC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="348" y="345" width="230" height="21" uuid="8fc8b948-bcf4-47d7-a68b-b3593c9ef909"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Montant Net: 	                   	 2192
+											]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="348" y="367" width="205" height="21" uuid="9ce650af-e757-4f87-af12-1800607e9bc1"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Prix unitaire net: 		 2192
+											]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="348" y="388" width="205" height="21" uuid="8922740f-10ba-4963-9c6a-62d4b8c8bfad"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email: 		 
+											]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<pageFooter>
+		<band height="107" splitType="Immediate">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="-11" y="-34" width="205" height="21" uuid="b581ea76-21f0-428c-a138-03053e83ad1e"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Absence de réponse]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-16" y="-12" width="205" height="21" uuid="107e607f-15d1-455d-8e88-e3b9f6ecbe64"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Motif: Non consulté]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-11" y="21" width="205" height="21" uuid="b68f414d-494a-45ca-9dd7-d79e65f98a1c"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarque:  												]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
